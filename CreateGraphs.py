@@ -13,7 +13,7 @@ def create_graph_cialkovskiy_by_time(gforce, time, rocket_mass, impulse):
     plt.xlabel("Время")
     plt.title("Циалковский от времени")
     ax1.grid(color='w', linewidth=0.2)
-    plt.show()
+    plt.savefig("/graphs/graph_cialkovskiy_by_time.png")
 
 
 def create_graph_velocity_by_mass(mass, velocity):
