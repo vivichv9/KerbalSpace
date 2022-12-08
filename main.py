@@ -6,7 +6,7 @@ import CreateGraphs
 
 plt.style.use('dark_background')
 
-DATA_FILE_PATH = "data.csv"
+DATA_FILE_PATH = "data/data.csv"
 MASS_EARTH = 5.9722 * 1024
 
 def calculate_impulse(mass, velocity):
