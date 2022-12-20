@@ -37,11 +37,12 @@ VDV = np.array(Columns(Data, "VesselDeltaV"))
 pressure = np.array(Columns(Data, "Pressure"))
 
 
-CreateGraphs.create_graph_velocity_by_mass(mass, velocity)
 CreateGraphs.create_graph_velocity_by_time(time, velocity)
+"""
 CreateGraphs.create_graph_velocity_by_altitude(AFT, velocity)
+CreateGraphs.create_graph_velocity_by_mass(mass, velocity)
 CreateGraphs.create_graph_altitude_by_time(time, AFT)
 CreateGraphs.create_graph_GForce_by_altitude(AFT, G)
 CreateGraphs.create_graph_cialkovskiy_by_time(G, time, mass, calculate_impulse(mass, velocity))
 CreateGraphs.create_graph_UniversalGravityLaw_by_time(MASS_EARTH, mass, AFT, time)
-
+"""
