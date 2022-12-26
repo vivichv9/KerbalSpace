@@ -31,13 +31,13 @@ M = 37400  # масса корабля
 alpha = 0
 dt = 1
 
-
 for i in range(1, timeStage1):
 
     # координата по x
     x1 = arrX[i - 1]
     # скорость по x
     vx1 = arrVx[i - 1]
+    K1 *= 0.997
     vx2 = (vx1 + (-math.sin(alpha) * (K1 / M) * vx1 ** 2 + math.sin(alpha) * (K2_STAGE1 * K3_STAGE1) / M) * dt)
     x2 = x1 + vx2 * dt
 
@@ -62,6 +62,7 @@ for i in range(timeStage1, timeStage2):
     x1 = arrX[i - 1]
     # скорость по x
     vx1 = arrVx[i - 1]
+    K1 = 0.01
     # скорость ракеты в следующий момент времени
     vx2 = (vx1 + (-math.sin(alpha) * (K1 / M) * vx1 ** 2 + math.sin(alpha) * (K2_STAGE2 * K3_STAGE2) / M) * dt)
     # координата ракеты в следующий момент времени
@@ -90,6 +91,7 @@ for i in range(timeStage2, timeStage3):
     x1 = arrX[i - 1]
     # скорость по x
     vx1 = arrVx[i - 1]
+    K1 = 0
     vx2 = (vx1 + (-math.sin(alpha) * (K1 / M) * vx1 ** 2 + math.sin(alpha) * (K2_STAGE3 * K3_STAGE3) / M) * dt)
     x2 = x1 + vx2 * dt
 
@@ -109,6 +111,7 @@ for i in range(timeStage2, timeStage3):
     arrVy.append(vy2)
     arrY.append(y2)
     arrMass.append(M)
+
 
 times1 = np.asarray(times)
 arrayVX = np.asarray(arrVx)
