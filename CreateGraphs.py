@@ -43,6 +43,15 @@ def create_graph_velocity_by_altitude(altitudeFromTerrain, velocity):
     ax1.grid(color='w', linewidth=0.2)
     plt.show()
 
+def create_graph_mass_by_time(mass, time):
+    ax1 = plt.subplot(1, 1, 1)
+    plt.plot(time, mass, label="Масса от времени")
+    plt.ylabel("Масса")
+    plt.xlabel("Время")
+    plt.title("Масса от времени")
+    ax1.grid(color='w', linewidth=0.2)
+    plt.show()
+
 def create_graph_altitude_by_time(time, altitude):
     ax1 = plt.subplot(1, 1, 1)
     plt.plot(time, altitude, label="Высота от времени")
