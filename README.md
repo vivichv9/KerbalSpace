@@ -1,6 +1,6 @@
 # Програмная реализация проекта `"Сокол-С"`
 
-## Ссылка на основной документ(отчет) - [:link:**_кликабельно_**:link:](https://docs.google.com/document/d/1I_B56GtqnuqOBQSlZflkZxK7ye1y5Lk2k9WJtWd6Uoo/edit#)
+## Ссылка на основной документ(отчет) - [:link:**_кликабельно_**:link:](https://drive.google.com/drive/folders/1tzqJS5CrVNDyZwkM-oI2SHfHYNAkCa-8)
 
 ## I Часть:
 
@@ -53,9 +53,12 @@
 
 ## **Итог работы:**
 
-Полный вывод был сформулирован в [:link:**_отчёте_**:link:](https://docs.google.com/document/d/1I_B56GtqnuqOBQSlZflkZxK7ye1y5Lk2k9WJtWd6Uoo/edit#).
+Полный вывод был сформулирован в [:link:**_отчёте_**:link:](https://drive.google.com/drive/folders/1tzqJS5CrVNDyZwkM-oI2SHfHYNAkCa-8).
 
 А здесь представлены результаты работы программы:
-![](https://i.imgur.com/Bl0Nv63.png)
-
-P.S. - Будет дополняться... :underage:
+![](https://i.imgur.com/hUNDGy9.png)
+![](https://i.imgur.com/QqhWYOQ.png)
+![](https://i.imgur.com/x28QJlH.png)
+![](https://i.imgur.com/mxWdvQK.png)
+![](https://i.imgur.com/JQMnPaU.png)
+![](https://i.imgur.com/19DIPa2.png)
