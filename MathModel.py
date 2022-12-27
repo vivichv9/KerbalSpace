@@ -122,12 +122,6 @@ arrayMass = np.asarray(arrMass)
 
 sumArrays = np.sqrt(arrayVX * arrayVX + arrayVY * arrayVY)
 
-ax1 = plt.subplot(1, 1, 1)
-plt.plot(times1, arrayVX)
-plt.ylabel("Скорость по оси X")
-plt.xlabel("Время")
-plt.show()
-
 ax3 = plt.subplot(1, 1, 1)
 plt.plot(times1, arrayMass)
 plt.ylabel("Масса")
